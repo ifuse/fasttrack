@@ -21,5 +21,5 @@ export default function (/* { ssrContext } */) {
     strict: process.env.DEV
   })
 
-    return Store
+  return Store
 }

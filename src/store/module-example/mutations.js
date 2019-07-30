@@ -1,1 +1,1 @@
-export function someMutation(/* state */) {}
+export function someMutation (/* state */) {}

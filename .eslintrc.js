@@ -7,7 +7,6 @@ module.exports = {
     },
 
     env: {
-        open: true,
         node: true
     },
 

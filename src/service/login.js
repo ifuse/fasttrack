@@ -1,7 +1,7 @@
 import request from '@/libs/request'
 import qs from 'qs'
 
-export function loginByUsername(username, password) {
+export function loginByUsername (username, password) {
   const data = {
     username,
     password
@@ -13,18 +13,18 @@ export function loginByUsername(username, password) {
   })
 }
 
-export function logout() {
+export function logout () {
   return request({
     url: '/auth/logout',
     method: 'post',
-    loading:"hourglass"
+    loading: 'hourglass'
   })
 }
 
-export function getUserInfo() {
+export function getUserInfo () {
   return request({
     url: '/user/info',
     method: 'get',
-    loading:"gears"
+    loading: 'gears'
   })
 }
