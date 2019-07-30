@@ -3,12 +3,11 @@ module.exports = {
 
     parserOptions: {
         sourceType: 'module',
-        parser: 'babel-eslint',
-        fix - js: 'eslint-auto-fix'
+        parser: 'babel-eslint'
     },
 
     env: {
-        true,
+        open: true,
         node: true
     },
 
@@ -31,7 +30,9 @@ module.exports = {
     // add your custom rules here
     'rules': [
         'plugin:vue/essential',
-        '@vue/prettier'
+        '@vue/prettier',
+        'eslint-auto-fix'
+
     ],
 
     rules: {
