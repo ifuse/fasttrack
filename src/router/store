@@ -1,0 +1,184 @@
+{
+	"knownSymbols": {
+		"openURL": [
+			{
+				"name": "openURL",
+				"module": "quasar",
+				"isDefault": false
+			}
+		],
+		"FtyMenu": [
+			{
+				"name": "FtyMenu",
+				"module": "src/components/FtyMenu",
+				"isDefault": true
+			}
+		],
+		"FtyBreadcrumbs": [
+			{
+				"name": "FtyBreadcrumbs",
+				"module": "src/components/FtyBreadcrumbs",
+				"isDefault": true
+			}
+		],
+		"FtyModuleTabs": [
+			{
+				"name": "FtyModuleTabs",
+				"module": "src/components/FtyModuleTabs",
+				"isDefault": true
+			}
+		],
+		"resetDb": [
+			{
+				"name": "resetDb",
+				"module": "@/service/other/resetdb",
+				"isDefault": false
+			}
+		],
+		"util": [
+			{
+				"name": "util",
+				"module": "@/libs/util.js",
+				"isDefault": true
+			},
+			{
+				"name": "util",
+				"module": "@/libs/util",
+				"isDefault": true
+			}
+		],
+		"ScrollPane": [
+			{
+				"name": "ScrollPane",
+				"module": "@/components/ScrollPane",
+				"isDefault": true
+			}
+		],
+		"getAllMenu": [
+			{
+				"name": "getAllMenu",
+				"module": "@/service/system/menu",
+				"isDefault": false
+			}
+		],
+		"getIcons": [
+			{
+				"name": "getIcons",
+				"module": "@/service/system/menu",
+				"isDefault": false
+			}
+		],
+		"saveMenu": [
+			{
+				"name": "saveMenu",
+				"module": "@/service/system/menu",
+				"isDefault": false
+			}
+		],
+		"required": [
+			{
+				"name": "required",
+				"module": "vuelidate/lib/validators",
+				"isDefault": false
+			}
+		],
+		"maxLength": [
+			{
+				"name": "maxLength",
+				"module": "vuelidate/lib/validators",
+				"isDefault": false
+			}
+		],
+		"date": [
+			{
+				"name": "date",
+				"module": "quasar",
+				"isDefault": false
+			}
+		],
+		"mavonEditor": [
+			{
+				"name": "mavonEditor",
+				"module": "mavon-editor",
+				"isDefault": false
+			}
+		],
+		"getPost": [
+			{
+				"name": "getPost",
+				"module": "@/service/cms/post",
+				"isDefault": false
+			}
+		],
+		"savePost": [
+			{
+				"name": "savePost",
+				"module": "@/service/cms/post",
+				"isDefault": false
+			}
+		],
+		"getPostPagedList": [
+			{
+				"name": "getPostPagedList",
+				"module": "@/service/cms/post",
+				"isDefault": false
+			}
+		],
+		"errGif": [
+			{
+				"name": "errGif",
+				"module": "@/assets/403.gif",
+				"isDefault": true
+			}
+		],
+		"getTopPostByQuery": [
+			{
+				"name": "getTopPostByQuery",
+				"module": "@/service/cms/post",
+				"isDefault": false
+			}
+		],
+		"getRequestLogPagedList": [
+			{
+				"name": "getRequestLogPagedList",
+				"module": "@/service/other/requestlog",
+				"isDefault": false
+			}
+		],
+		"getUserPagedList": [
+			{
+				"name": "getUserPagedList",
+				"module": "@/service/user/user",
+				"isDefault": false
+			}
+		],
+		"editRoleUser": [
+			{
+				"name": "editRoleUser",
+				"module": "@/service/user/user",
+				"isDefault": false
+			}
+		],
+		"getRolePagedList": [
+			{
+				"name": "getRolePagedList",
+				"module": "@/service/permission/role",
+				"isDefault": false
+			}
+		],
+		"getMenuFunctions": [
+			{
+				"name": "getMenuFunctions",
+				"module": "@/service/system/menu",
+				"isDefault": false
+			}
+		],
+		"default": [
+			{
+				"name": "default",
+				"path": "/home/fusefreedom/Workspace/IRA/vue-quasar-admin/src/pages/Index.vue",
+				"isDefault": false
+			}
+		]
+	}
+}

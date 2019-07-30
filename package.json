@@ -1,0 +1,45 @@
+{
+  "name": "fasttrack",
+  "version": "0.0.1",
+  "description": "Set Me Free",
+  "productName": "Fast Track",
+  "cordovaId": "com.ira.fasttrack",
+  "author": "Chamnan Longlum <chamnan@irainnovation.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.2.0",
+    "axios": "^0.18.1",
+    "eslint-auto-fix": "^1.0.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "quasar": "^1.0.5",
+    "vue-i18n": "^8.0.0",
+    "webpack": "^4.38.0",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.4",
+    "@vue/eslint-config-prettier": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "webpack-cli": "^3.3.6"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
